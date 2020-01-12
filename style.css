@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+}
+
+main {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+@media screen and (min-width: 600px) {
+  nav > ul {
+    display: flex;
+  }
+}
+
+nav > ul > li {
+  margin: 0 0 0 20px;
+}
+
+.materials > li {
+  margin: 15px 0 0 0;
+}
+
+.materials > li > a {
+  display: block;
+  margin: 8px 0 0 0;
+}
